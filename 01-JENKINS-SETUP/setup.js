@@ -1,3 +1,5 @@
+docker pull jenkins/jenkins
+
 //create jenkins folder 
 $ mkdir $HOME / jenkins_home
 
