@@ -1,4 +1,5 @@
-docker pull jenkins/jenkins
+// ths will download jenkins image into your docker
+docker pull jenkins / jenkins
 
 //create jenkins folder 
 $ mkdir $HOME / jenkins_home
