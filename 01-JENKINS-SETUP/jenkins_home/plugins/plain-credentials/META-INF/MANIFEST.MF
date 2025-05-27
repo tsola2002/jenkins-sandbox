@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Plain Credentials Plugin
+Specification-Version: 0.0
+Implementation-Title: Plain Credentials Plugin
+Implementation-Version: 195.vb_906e9073dee
+Group-Id: org.jenkins-ci.plugins
+Artifact-Id: plain-credentials
+Short-Name: plain-credentials
+Long-Name: Plain Credentials Plugin
+Url: https://github.com/jenkinsci/plain-credentials-plugin
+Plugin-Version: 195.vb_906e9073dee
+Hudson-Version: 2.479.3
+Jenkins-Version: 2.479.3
+Plugin-Dependencies: credentials:1408.va_622a_b_f5b_1b_1
+Plugin-Developers: 
+Plugin-License-Name: MIT
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/plain-credent
+ ials-plugin.git
+Plugin-ScmTag: b906e9073dee0d256b0231b969d7ea6f6a91ced6
+Plugin-ScmUrl: https://github.com/jenkinsci/plain-credentials-plugin
+Implementation-Build: b906e9073dee0d256b0231b969d7ea6f6a91ced6
+

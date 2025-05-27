@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Pipeline: Step API
+Specification-Version: 0.0
+Implementation-Title: Pipeline: Step API
+Implementation-Version: 700.v6e45cb_a_5a_a_21
+Group-Id: org.jenkins-ci.plugins.workflow
+Artifact-Id: workflow-step-api
+Short-Name: workflow-step-api
+Long-Name: Pipeline: Step API
+Url: https://github.com/jenkinsci/workflow-step-api-plugin
+Plugin-Version: 700.v6e45cb_a_5a_a_21
+Hudson-Version: 2.479.1
+Jenkins-Version: 2.479.1
+Plugin-Dependencies: structs:338.v848422169819
+Plugin-Developers: 
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/workflow-step
+ -api-plugin.git
+Plugin-ScmTag: 6e45cba5aa21f0ea70a7b2d79e7cad886e4f940b
+Plugin-ScmUrl: https://github.com/jenkinsci/workflow-step-api-plugin
+Implementation-Build: 6e45cba5aa21f0ea70a7b2d79e7cad886e4f940b
+

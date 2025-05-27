@@ -1,0 +1,6 @@
+Starting health checks at Tue May 27 06:44:33 UTC 2025
+Health check results at Tue May 27 06:44:33 UTC 2025:
+ * disk-space: Result{isHealthy=false, message=Only 0.793 Gb free on (controller), duration=0, timestamp=2025-05-27T06:44:33.257Z}
+ * plugins: Result{isHealthy=true, message=No failed plugins, duration=0, timestamp=2025-05-27T06:44:33.257Z}
+ * temporary-space: Result{isHealthy=true, duration=1, timestamp=2025-05-27T06:44:33.259Z}
+ * thread-deadlock: Result{isHealthy=true, duration=1, timestamp=2025-05-27T06:44:33.259Z}
