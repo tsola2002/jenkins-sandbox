@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+        stages {
+            stage("Hello") {
+                steps {
+                    sleep 300 // Sleep for 5 minutes
+                    echo 'Hello World'
+                }
+            }
+        }
+}

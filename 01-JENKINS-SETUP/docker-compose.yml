@@ -6,7 +6,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - "$PWD/jenkins_home:/var/jenkins_home"
+      - "$HOME/jenkins_home:/var/jenkins_home"
     networks:
       - net
 networks:
