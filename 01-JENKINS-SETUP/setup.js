@@ -11,3 +11,13 @@ docker run -d -p 8080:8080 \
 
 // check the log to see whether jenkins is running
 docker logs jenkins-ctd 
+
+
+// log into jenkins container 
+docker exec - it old - jenkins bash
+docker exec -it jenkins bash
+
+
+// this will copy a bash script from your local filesystem into a docker container
+docker cp script.sh old - jenkins: /tmp/script.sh
+docker cp script.sh jenkins:/tmp/script.sh 

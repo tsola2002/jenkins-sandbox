@@ -1,18 +1,18 @@
 pipeline {
     agent any
-    tools {
-        jdk 'jdk17'  // Make sure this JDK is installed and configured in Jenkins global tools config
-    }
+    // tools {
+    //     jdk 'jdk17'  // Make sure this JDK is installed and configured in Jenkins global tools config
+    // }
     stages {
         stage("Checkout") {
             steps {
                 git url: 'https://github.com/tsola2002/calculator.git', branch: 'master'
             }
         }
-        stage("Compile") {
-            steps {
-                sh "./gradlew compileJava"
-            }
-        }
+        // stage("Compile") {
+        //     steps {
+        //         sh "./gradlew compileJava"
+        //     }
+        // }
     }
 }
