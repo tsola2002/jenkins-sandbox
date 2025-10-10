@@ -1,0 +1,26 @@
+// STEP 1 CONFIGURE YOU JENKINS SERVER TO WORK WITH JAVA
+CLICK "MANAGE JENKINS" >> "TOOLS" >> GO TO JDK SECTION >> "ADD JDK" >>
+name: java21
+home: c:\PrgramFiles\Java\jdk-21
+
+// STEP 2 CONFIGURE YOUR JENKINS SERVER TO WORK WITH GIT
+GO TO GIT INSTALLATION SECTION
+path to git executable
+c:\PrgramFile\Git\bin\git.exe
+
+// STEP 3 CONFIGURE MAVEN INTEGRATION IN YOUR JENKINS SERVER
+GGO TO MAVEN SECTION
+name: maven 
+tick on the "install automatically checkbox"
+
+
+//STEP 4 APPLY AND SAVE ALL CHANGES
+CLICK "APPLY" AND "SAVE"
+
+
+// STEP 5 CREATE A FREESTYLE PROJECT
+click on "NEW PROJECT"
+item name: "customer" then click "OK"
+in the general tab go to "SOURCE CODE MANAGEMENT"
+
+
