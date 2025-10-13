@@ -24,3 +24,13 @@ item name: "customer" then click "OK"
 in the general tab go to "SOURCE CODE MANAGEMENT"
 
 
+// STEP 6 CREATE A NEW JOB
+click on "NEW ITEM"
+select "FREESTYLE PROJECT" and name your project
+click on "OK"
+go to build steps section and select "EXECUTE WINDOWS BATCH COMMAND"
+type echo "Hello From Jenkins"
+click "save"
+click "build now"
+
+
