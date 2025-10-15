@@ -8,4 +8,6 @@ Go to github.com  if you don'tClick on New, next to Reposi
 Give it a name – calculator
 click create
 
+// STEP 3 Creating a checkout stage We can create a new pipeline called calculator, and as it is a pipeline script, place the code in spring.jenkins inside of the pipeline
+
 
