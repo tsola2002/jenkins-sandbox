@@ -11,3 +11,4 @@ click create
 // STEP 3 Creating a checkout stage We can create a new pipeline called calculator, and as it is a pipeline script, place the code in spring.jenkins inside of the pipeline
 
 
+// STEP 4 CREATE A SPRING PROJECT
