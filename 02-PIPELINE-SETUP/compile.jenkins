@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage("Checkout") {
+            steps {
+                git url: 'https://github.com/tsola2002/calculator-app-mvn.git', branch: 'master'
+            }
+        }
+        stage("Compile") {
+            steps {
+                sh " mvn clean compile"
+            }
+        }
+    }
+}
