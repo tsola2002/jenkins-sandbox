@@ -1,7 +1,7 @@
 // STEP 1 INSTALL THE FOLLOWING PLUGINS
 Dashboard
 v
-Mange Jenkins
+Manage Jenkins
 v
 Plugins
 v
@@ -25,3 +25,6 @@ SonarQube Scanner
 Navigate to: 
 Manage Jenkins
 v
+Tools
+v
+Git Installations
